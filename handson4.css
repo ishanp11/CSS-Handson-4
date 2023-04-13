@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.box1{
+
+    height: 30px;
+    width: 100%;
+    background: linear-gradient(to right, red, green, lightgreen
+    );
+    text-decoration: underline;
+    text-align: center;
+
+}
+.ourofferings{
+    width: 150px;
+    height: 25px;
+    text-align: center;
+    background-color: aqua;
+    font-weight: bolder;
+    text-align: center;
+    position: relative;
+    left:707px;
+    text-decoration: underline;
+    padding: 3px;
+    margin: 0px;
+    
+    
+}
+.box2{
+
+    width: 800px;
+    height: 60px;
+    background-color: grey;
+    border: 5px solid red;
+    border-radius: 10px;
+    position: relative;
+    left: 400px;
+    top: 15px;
+    text-align: center;
+    
+
+}
+.ul{
+    display: inline-block;
+    
+    
+}
+li{
+    padding-left: 30px;
+}
+
+
+.boxaqua{
+    width: 100%;
+    height: 200px;
+    background-color: lightgreen;
+    border-radius: 10px;
+    border: 2px solid red;
+    position: relative;
+    top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.box1a{
+    width: 450px;
+    height: 80px;
+    border: 5px solid red;
+    border-radius: 10px;
+    background-color: aqua;
+    font-weight: bold;
+}
+.box2a{
+    z-index: 1;
+    width: 450px;
+    height: 80px;
+    border: 5px solid red;
+    border-radius: 10px;
+    background-color: aqua;
+    font-weight: bold;
+}.box3a{
+    width: 450px;
+    height: 80px;
+    border: 5px solid red;
+    border-radius: 10px;
+    background-color: aqua;
+    font-weight: bold;
+}.box4a{
+    width: 450px;
+    height: 80px;
+    border: 5px solid red;
+    position: relative;
+    top: -20px;
+    border-radius: 10px;
+    background-color: aqua;
+    font-weight: bold;
+    
+}
+.orangebox{
+    z-index: 1;
+    height: 50px;
+    width: 100%;
+    background-image: radial-gradient(red,orange,yellow);
+    position: relative;
+    top: 51px;
+    font-weight: bolder;
+    text-align: center;
+    text-decoration: underline;
+    
+
+}
+.bluebox{
+    z-index: -1;
+    width: 100%;
+    height: 200px;
+    border: 2px solid green;
+    position: relative;
+    top: 68px;
+    background-image: linear-gradient(to bottom right, blue, green, yellow);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.bluebox1{
+    color: red;
+    width: 200px;
+    height: 100px;
+    background-color: yellow;
+    text-align: center;
+    text-decoration: underline;
+}
+.bluebox2{
+    color: red;
+    width: 200px;
+    height: 100px;
+    background-color: yellow;
+    text-align: center;
+    text-decoration: underline;
+}
+.bluebox3{
+    color: red;
+    width: 200px;
+    height: 100px;
+    background-color: yellow;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.bluebox4{
+    color: red;
+    width: 200px;
+    height: 100px;
+    background-color: yellow;
+    text-align: center;
+    text-decoration: underline;
+}
+.grid{
+    
+    display: grid;
+    grid-template-columns: auto auto auto 100px;
+    grid-template-rows: 50px 100PX 150px 30px;
+    gap: 20PX;
+    height: 500px;
+    position: relative;
+    top: 100px;
+    
+}
+.grid-1{
+    color: aliceblue;
+    background-color: red;
+    grid-column: 1/5;
+    grid-row: 1/2;
+    text-align: center;
+    font-weight: bold;
+    font-size: x-large;
+    
+
+}
+.grid-2{
+    color: antiquewhite;
+    background-color: green;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    text-align: center;
+    font-weight: bold;
+    font-size: x-large;
+}
+.grid-3{
+    color: antiquewhite;
+    background-color: blue;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    text-align: center;
+    font-weight: bold;
+    font-size: x-large;
+   
+}
+.grid-4{
+    color: antiquewhite;
+    background-color: lightblue;
+    grid-column: 3/4;
+    grid-row: 2/3;
+    text-align: center;
+    font-weight: bold;
+    font-size: x-large;
+}
+.grid-5{
+    color: antiquewhite;
+    background-color: orange;
+    grid-column: 1/5;
+    grid-row: 3/4;
+    text-align: center;
+    font-weight: bold;
+    font-size: x-large;
+}
+.grid-6{
+    color: antiquewhite;
+    background-color: black;
+    grid-column: 4/5;
+    grid-row: 2/4;
+    text-align: center;
+    padding: 26px;
+}
+.grid-7{
+
+    background-color: orange;
+    grid-column: 1/5;
+    grid-row: 4/5;
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+
+}
